@@ -1,12 +1,12 @@
 ![Homelab](./dashboard.png)
 
-# Homelab Containers 📦
+# 📦 Homelab Containers
 
 Este repositorio contiene la simulación de un entorno Homelab completo desplegado en una máquina virtual utilizando Docker Compose. Incluye servicios de red, monitorización, automatización multimedia, almacenamiento en la nube y gestión de contenedores, todo orquestado de forma modular.
 
 ---
 
-# Estructura del proyecto 📁
+# 📁 Estructura del proyecto
 
 El proyecto sigue la siguiente estructura, dentro de cada carpeta se encuentran los respectivos ficheros docker-compose.yml que ayudarán en la configuración y despliegue de los servicios.
 
@@ -23,7 +23,7 @@ El proyecto sigue la siguiente estructura, dentro de cada carpeta se encuentran 
 
 ---
 
-# Despliegue 🚀
+# 🚀 Despliegue de servicios
 
 Para el despliegue simplemente deberemos de clonar el repositirio :
 
@@ -43,7 +43,7 @@ docker compose up -d
 
 ---
 
-# Aviso sobre configuración ⚠️
+# ⚠️ Aviso sobre configuración
 
 En este repositorio se ha censurado información sensible por seguridad, por lo que encontrarán mucha información señalada o entre puntos suspensivos donde tendrán que ajustarlo según tus necesidades, recuerda que todos los entornos no son iguales. Básicamente encontrarás etiquetas como las siguientes :
 
@@ -56,13 +56,13 @@ También encontrarás valores con ... indicando partes omitidas o simplificadas.
 
 ---
 
-# Nota sobre Proxy 🗒️
+# 🗒️ Nota sobre Proxy
 
 Algunas rutas del Nginx Proxy Manager se han dejado parcialmente intactas para que se entienda el contexto real del despliegue, estas rutas deben ajustarse según vuestra infraestructura y configuración de red.
 
 ---
 
-# Objetivo del proyecto 🧠
+# 🧠 Objetivo del proyecto
 
 Este proyecto tiene fines educativos y de simulación para:
 
@@ -74,6 +74,6 @@ Este proyecto tiene fines educativos y de simulación para:
 
 ---
 
-# Aviso 📌
+# 📌 Aviso
 
 Este entorno está diseñado para uso personal y educativo. No se recomienda exponerlo a internet sin una configuración adecuada de seguridad.
