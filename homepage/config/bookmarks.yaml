@@ -1,0 +1,17 @@
+---
+- 1:
+    - Github:
+        - icon: github.png
+          href: https://github.com/pablocsl
+          description: Perfil de Github
+
+- 2:
+    - LinkedIn:
+        - icon: linkedin.png
+          href: https://www.linkedin.com/in/pablo-casal-moscosio-54410630b/
+          description: Perfil de LinkedIn
+
+- 3:
+    - Web Personal:
+        - abbr: Wiki
+          href: https://pablocsl.vercel.app

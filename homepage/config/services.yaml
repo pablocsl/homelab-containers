@@ -1,0 +1,120 @@
+- columna-1:
+    - Grafana:
+        href: http://grafana.pablocsl.lab/
+        icon: grafana.png
+        description: Métricas y dashboards
+        container: grafana
+        widget:
+          type: grafana
+          version: 2
+          url: <IP:PORT>/<URL>
+          username: ...
+          password: ...
+
+    - Nginx Proxy Manager:
+        href: http://proxy.pablocsl.lab/
+        icon: nginx-proxy-manager.png
+        description: Proxy inverso
+        container: nginx
+        widget:
+          type: npm
+          url: <IP:PORT>/<URL>
+          username: ...
+          password: ...
+
+- columna-2:
+    - Prometheus:
+        href: http://prometheus.pablocsl.lab/
+        icon: prometheus.png
+        description: Consultas PromQL
+        container: prometheus
+        widget:
+          type: prometheus
+          url: <IP:PORT>/<URL>
+
+    - Portainer:
+        href: http://portainer.pablocsl.lab/
+        icon: portainer.png
+        description: Gestión de Docker
+        container: portainer
+        widget:
+          type: portainer
+          url: <IP:PORT>/<URL>
+          env: 3
+          kubernetes: false
+          key: <api-key>
+
+- columna-3:
+    - Nextcloud:
+        href: http://nextcloud.pablocsl.lab/
+        icon: nextcloud.png
+        description: Nube de archivos
+        container: nextcloud_app
+        widget:
+          type: nextcloud
+          url: <IP:PORT>/<URL>
+          username: ...
+          password: ...
+
+    - Radarr:
+        href: http://radarr.pablocsl.lab/
+        icon: radarr.png
+        description: Gestión de películas
+        container: radarr
+        widget:
+          type: radarr
+          url: <IP:PORT>/<URL>
+          key: <api-key>
+          enableQueue: true
+
+    - qBittorrent:
+        href: http://qbittorrent.pablocsl.lab/
+        icon: qbittorrent.png
+        description: Descargas torrents
+        container: qbittorrent
+        widget:
+          type: qbittorrent
+          url: <IP:PORT>/<URL>
+          username: ...
+          password: ...
+          enableLeechProgress: true
+          enableLeechSize: true
+
+- columna-4:
+    - Prowlarr:
+        href: http://prowlarr.pablocsl.lab/
+        icon: prowlarr.png
+        description: Indexadores torrents
+        container: prowlarr
+        widget:
+          type: prowlarr
+          url: <IP:PORT>/<URL>
+          key: <api-key>
+
+    - Sonarr:
+        href: http://sonarr.pablocsl.lab/
+        icon: sonarr.png
+        description: Gestión de series
+        container: sonarr
+        widget:
+          type: sonarr
+          url: <IP:PORT>/<URL>
+          key: <api-key>
+          enableQueue: true
+
+    - Jellyfin:
+        href: http://jellyfin.pablocsl.lab/
+        icon: jellyfin.png
+        description: Streaming multimedia
+        container: jellyfin
+        widget:
+          type: jellyfin
+          url: <IP:PORT>/<URL>
+          key: <api-key>
+          version: 2
+          enableBlocks: true
+          enableNowPlaying: true
+          enableUser: true
+          enableMediaControl: false
+          showEpisodeNumber: true
+          expandOneStreamToTwoRows: false

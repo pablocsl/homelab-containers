@@ -1,0 +1,13 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - <port>:3000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /<ruta>/config:/app/config
+      - /<ruta>/images:/app/public/images
+      - /<ruta>/icons:/app/public/icons
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: 127.0.0.1:3000,dashboard.pablocsl.lab

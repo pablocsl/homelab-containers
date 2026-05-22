@@ -1,0 +1,15 @@
+title: pablocsl/homelab
+language: es
+theme: dark
+color: zinc
+headerStyle: boxed
+statusStyle: "dot"
+cardBlur: md
+hideVersion: true
+
+favicon: /icons/favicon.png
+background:
+  image: /images/background3.jpg
+  blur: md
+  brightness: 10
+  opacity: 50

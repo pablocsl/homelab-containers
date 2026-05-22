@@ -1,0 +1,11 @@
+[id^="headlessui-disclosure-button-"] {
+	display: none;
+}
+
+div.flex.flex-col.ml-3.text-left.min-w-\[85px\] {
+	min-width: 0px;
+}
+
+#footer {
+	display: none;
+}

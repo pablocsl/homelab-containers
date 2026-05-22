@@ -1,0 +1,1618 @@
+[2026-05-14T20:09:32.119Z] info: kubernetes.yaml was copied to the config folder
+[2026-05-14T20:09:33.169Z] info: docker.yaml was copied to the config folder
+[2026-05-14T20:09:33.171Z] info: services.yaml was copied to the config folder
+[2026-05-14T20:09:33.172Z] info: bookmarks.yaml was copied to the config folder
+[2026-05-14T20:09:33.173Z] info: proxmox.yaml was copied to the config folder
+[2026-05-14T20:09:33.188Z] info: widgets.yaml was copied to the config folder
+[2026-05-14T20:09:33.188Z] info: custom.css was copied to the config folder
+[2026-05-14T20:09:33.189Z] info: custom.js was copied to the config folder
+[2026-05-14T20:09:33.596Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-20T21:08:19.376Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-20T22:34:04.529Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T22:34:04.532Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (1:3)
+
+ 1 | - :
+-------^
+ 2 |     - My First Service:
+ 3 |         href: http://localhost/
+[2026-05-20T22:34:04.537Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T22:34:04.537Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (1:3)
+
+ 1 | - :
+-------^
+ 2 |     - My First Service:
+ 3 |         href: http://localhost/
+[2026-05-20T22:34:05.061Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T22:34:05.062Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (1:3)
+
+ 1 | - :
+-------^
+ 2 |     - My First Service:
+ 3 |         href: http://localhost/
+[2026-05-20T22:46:04.185Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T22:46:04.186Z] error: TypeError: Cannot read properties of null (reading 'forEach')
+[2026-05-20T22:47:01.652Z] warn: <service-helpers> Error parsing service "My second service" from config. Ensure required fields are present.
+[2026-05-20T22:47:01.653Z] warn: <service-helpers> Error parsing service "My third group" from config. Ensure required fields are present.
+[2026-05-20T22:48:28.025Z] warn: <service-helpers> Error parsing service "My second service" from config. Ensure required fields are present.
+[2026-05-20T22:48:28.025Z] warn: <service-helpers> Error parsing service "My third group" from config. Ensure required fields are present.
+[2026-05-20T22:49:04.864Z] warn: <service-helpers> Error parsing service "My third group" from config. Ensure required fields are present.
+[2026-05-20T22:59:45.899Z] error: <index> YAMLException: duplicated mapping key (19:5)
+
+ 16 |         style: column
+ 17 |         icon: mdi-graph
+ 18 | 
+ 19 |     Monitorización:
+----------^
+ 20 |         style: column
+ 21 |         icon: mdi-graph
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+[2026-05-20T22:59:46.176Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2026-05-20T22:59:46.176Z] error: YAMLException: duplicated mapping key (19:5)
+
+ 16 |         style: column
+ 17 |         icon: mdi-graph
+ 18 | 
+ 19 |     Monitorización:
+----------^
+ 20 |         style: column
+ 21 |         icon: mdi-graph
+[2026-05-20T22:59:46.177Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2026-05-20T22:59:46.177Z] error: YAMLException: duplicated mapping key (19:5)
+
+ 16 |         style: column
+ 17 |         icon: mdi-graph
+ 18 | 
+ 19 |     Monitorización:
+----------^
+ 20 |         style: column
+ 21 |         icon: mdi-graph
+[2026-05-20T22:59:46.177Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-20T22:59:46.177Z] error: YAMLException: duplicated mapping key (19:5)
+
+ 16 |         style: column
+ 17 |         icon: mdi-graph
+ 18 | 
+ 19 |     Monitorización:
+----------^
+ 20 |         style: column
+ 21 |         icon: mdi-graph
+[2026-05-20T22:59:46.180Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-20T22:59:46.180Z] error: YAMLException: duplicated mapping key (19:5)
+
+ 16 |         style: column
+ 17 |         icon: mdi-graph
+ 18 | 
+ 19 |     Monitorización:
+----------^
+ 20 |         style: column
+ 21 |         icon: mdi-graph
+[2026-05-20T23:10:01.804Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T23:10:01.804Z] error: YAMLException: duplicated mapping key (21:9)
+
+ 18 |         href: http://nextcloud.pablocsl ...
+ 19 |         icon: nextcloud.png
+ 20 |         container: nextcloud_app
+ 21 |         container: nextcloud_db
+--------------^
+ 22 |         showStats: true
+ 23 |         statusStyle: 'dot'
+[2026-05-20T23:10:01.819Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T23:10:01.820Z] error: YAMLException: duplicated mapping key (21:9)
+
+ 18 |         href: http://nextcloud.pablocsl ...
+ 19 |         icon: nextcloud.png
+ 20 |         container: nextcloud_app
+ 21 |         container: nextcloud_db
+--------------^
+ 22 |         showStats: true
+ 23 |         statusStyle: 'dot'
+[2026-05-20T23:10:02.314Z] error: Failed to load services.yaml, please check for errors
+[2026-05-20T23:10:02.314Z] error: YAMLException: duplicated mapping key (21:9)
+
+ 18 |         href: http://nextcloud.pablocsl ...
+ 19 |         icon: nextcloud.png
+ 20 |         container: nextcloud_app
+ 21 |         container: nextcloud_db
+--------------^
+ 22 |         showStats: true
+ 23 |         statusStyle: 'dot'
+[2026-05-20T23:57:47.204Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.317Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.325Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.341Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.372Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.392Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.395Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.398Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.421Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.429Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.434Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.479Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.485Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.490Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.494Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.499Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.507Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.511Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.514Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.520Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:57:47.636Z] error: Host validation failed for: homepage.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-20T23:58:45.971Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:06:08.237Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.426Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.432Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.438Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.480Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.486Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.492Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.501Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.600Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.625Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.629Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.630Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.633Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.638Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.644Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.655Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.664Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.669Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.676Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.684Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.691Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:08.694Z] error: Host validation failed for: dashboard.pablocsl.lab. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-21T00:06:59.561Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:13:08.726Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:25:00.708Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:34:39.867Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:39:32.578Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:45:10.949Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:49:42.961Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T00:59:03.044Z] error: <servicesProxy> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: https://portainer.pablo ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2079:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+[2026-05-21T00:59:03.048Z] error: <servicesProxy> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: https://portainer.pablo ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2079:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+[2026-05-21T00:59:03.341Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T00:59:03.341Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: https://portainer.pablo ...
+[2026-05-21T00:59:03.570Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T00:59:03.571Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: https://portainer.pablo ...
+[2026-05-21T00:59:23.908Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T00:59:23.908Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T00:59:24.212Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T00:59:24.213Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T00:59:25.256Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T00:59:25.256Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:01:15.441Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:01:15.441Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:01:15.969Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:01:15.971Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:01:17.646Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:01:17.647Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:01:56.506Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://portainer.pablocsl.lab/api/endpoints/1/docker/containers/json?all=1
+[2026-05-21T01:02:03.980Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://portainer.pablocsl.lab/api/endpoints/1/docker/containers/json?all=1
+[2026-05-21T01:02:44.981Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://portainer.pablocsl.lab/api/endpoints/1/docker/containers/json?all=1
+[2026-05-21T01:03:15.600Z] error: <servicesProxy> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2079:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+[2026-05-21T01:03:15.603Z] error: <servicesProxy> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2079:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+[2026-05-21T01:03:15.607Z] error: <servicesProxy> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2079:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+[2026-05-21T01:03:15.767Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:03:15.767Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:03:16.136Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:03:16.139Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:03:16.826Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:03:16.826Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:03:18.542Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T01:03:18.542Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |         href: http://portainer. ...
+ 16 |         icon: portainer.png
+ 17 |         container: portainer
+ 18 | →widget:
+------^
+ 19 | →  type: portainer
+ 20 | →  url: http://portainer.pabloc ...
+[2026-05-21T01:03:42.083Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://portainer.pablocsl.lab/api/endpoints/local/docker/containers/json?all=1
+[2026-05-21T01:03:55.582Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://portainer.pablocsl.lab/api/endpoints/local/docker/containers/json?all=1
+[2026-05-21T01:04:31.217Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://portainer.pablocsl.lab/api/endpoints/1/docker/containers/json?all=1
+[2026-05-21T01:04:32.191Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://portainer.pablocsl.lab/api/endpoints/1/docker/containers/json?all=1
+[2026-05-21T01:08:15.368Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:08:15.374Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:08:20.602Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:08:26.111Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:17:27.046Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:17:27.051Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:17:28.838Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:17:28.860Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:17:34.784Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:17:39.475Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:17:57.800Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:17:57.813Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:18:02.832Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Items/Counts
+[2026-05-21T01:18:07.846Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin.pablocsl.lab/Sessions
+[2026-05-21T01:22:49.897Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:22:55.729Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:35:47.160Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:35:57.247Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:36:12.301Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:36:35.162Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:36:42.522Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:36:45.583Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:37:03.096Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:08.141Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:11.578Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:12.750Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:18.027Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:33.064Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:38.111Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:43.990Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:48.260Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:37:49.254Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:38:13.610Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:38:51.743Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:38:52.831Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:02.047Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:03.107Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:13.973Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:24.453Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:29.504Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:36.247Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:41.554Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:39:50.232Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:40:29.298Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:40:30.421Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:40:36.173Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:41:09.348Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:41:10.569Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:41:16.457Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Tu dirección IP ha sido bloqueada después múltiples intentos de autenticación fallidos.
+[2026-05-21T01:41:45.815Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:41:56.852Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:43:30.507Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:43:33.193Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T01:43:43.320Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-05-21T02:08:52.383Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2026-05-21T02:08:52.384Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.384Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2026-05-21T02:08:52.384Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.388Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-21T02:08:52.388Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.407Z] error: <index> YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2158:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at m (/app/.next/server/pages/browserconfig.xml.js:9:1717)
+    at K (/app/.next/server/pages/index.js:9:77378)
+    at /app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:13:3438
+[2026-05-21T02:08:52.419Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-21T02:08:52.419Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.836Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-21T02:08:52.837Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.845Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2026-05-21T02:08:52.845Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.845Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2026-05-21T02:08:52.845Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T02:08:52.846Z] error: Failed to load settings.yaml, please check for errors
+[2026-05-21T02:08:52.846Z] error: YAMLException: tab characters must not be used in indentation (18:1)
+
+ 15 |   opacity: 50
+ 16 |   
+ 17 | layout:
+ 18 | →Monitorización:
+------^
+ 19 | →→style: row
+[2026-05-21T20:40:52.897Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T20:43:12.346Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:43:12.782Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:43:14.205Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:46:17.801Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:46:24.311Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:46:36.373Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T20:47:45.362Z] error: <service-helpers> Invalid fields list detected in config for service 'Nextcloud'
+[2026-05-21T21:17:49.128Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:49.134Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:49.134Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:49.135Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:49.135Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:49.136Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:49.136Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:49.137Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:52.043Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:52.044Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:54.057Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:54.057Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:56.069Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:56.070Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:58.123Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:58.124Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:59.099Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:59.099Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:59.116Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:59.116Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:17:59.118Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:17:59.118Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:18:00.147Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:18:00.148Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:18:02.173Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:18:02.173Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:18:04.196Z] error: <httpProxy> Error calling https://prometheus.host.or.ip/api/v1/query...
+[2026-05-21T21:18:04.196Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND prometheus.host.or.ip
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'prometheus.host.or.ip'
+  }
+]
+[2026-05-21T21:19:03.609Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.610Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.613Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.615Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.619Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.620Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.626Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.630Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.637Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.642Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.645Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.650Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.657Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.662Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.671Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.672Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.675Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.679Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.689Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:03.693Z] error: <servicesProxy> YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2186:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-21T21:19:04.044Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T21:19:04.046Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+[2026-05-21T21:19:04.095Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T21:19:04.095Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+[2026-05-21T21:19:04.814Z] error: Failed to load services.yaml, please check for errors
+[2026-05-21T21:19:04.814Z] error: YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line (26:7)
+
+ 23 |           username: pabloocasalm@gmai ...
+ 24 |           password: pablo123
+ 25 | 
+ 26 |     - :
+------------^
+ 27 |         widget:
+ 28 |           type: prometheusmetric
+[2026-05-21T21:41:40.861Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:40.962Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:40.978Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:43.368Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:43.369Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:43.383Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:46.468Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:46.469Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:46.474Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:49.539Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:49.574Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:49.575Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:52.635Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:52.636Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:52.640Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:56.267Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:56.277Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:56.278Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:41:59.254Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:41:59.254Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:41:59.257Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:01.410Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:01.447Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:01.456Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:03.249Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:03.308Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:03.316Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:06.578Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:06.588Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:06.589Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:09.476Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:09.479Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:09.480Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:12.559Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:12.571Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:12.572Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:15.585Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:15.617Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:15.625Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:18.652Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:18.660Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:18.661Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:21.696Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:21.719Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:21.723Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:24.723Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:24.773Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:24.780Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:27.752Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:27.830Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:27.841Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:30.789Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:30.879Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:30.883Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:33.824Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:33.924Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:33.948Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:35.707Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:35.720Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:35.726Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:38.668Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:38.669Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:38.674Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:41.737Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:41.746Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:41.759Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:44.976Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:45.060Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:45.068Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:48.075Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:48.118Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:48.138Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:51.199Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:51.201Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:51.208Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:54.289Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:54.297Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:42:54.298Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:57.583Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:42:57.638Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:42:57.680Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:00.618Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:00.678Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:00.710Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:03.658Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:03.714Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:03.727Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:06.684Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:06.732Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:06.746Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:09.711Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:09.777Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:09.783Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:12.733Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:12.807Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:12.816Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:15.751Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:15.850Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:15.851Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:18.775Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:18.912Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:18.922Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:21.803Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:21.982Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:21.987Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:24.822Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:25.023Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:25.030Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:27.857Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:28.075Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:28.076Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:30.905Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:31.114Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:31.126Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:33.934Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:34.178Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:34.185Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:36.958Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:37.226Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:37.230Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:39.998Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:40.259Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:40.264Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:43.037Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:43.307Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:43.313Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:46.085Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:46.354Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:46.360Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:49.103Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:49.387Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:49.394Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:52.132Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:52.429Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:52.431Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:55.162Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:55.479Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:55.481Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:43:58.199Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:43:58.537Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:43:58.538Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:01.257Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:01.571Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:01.574Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:04.297Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:04.609Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:04.619Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:07.334Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:07.641Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:07.650Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:10.365Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:10.685Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:10.689Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:13.391Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:13.718Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:13.721Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:16.416Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:16.777Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:16.793Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:19.443Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:19.835Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:19.858Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:22.469Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:22.897Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:22.919Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:25.500Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:25.925Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:25.978Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:28.516Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:28.956Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:29.009Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:31.548Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:32.017Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:32.049Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:34.565Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:35.043Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:35.071Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:37.594Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:38.076Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:38.095Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:40.628Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:41.098Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:41.119Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:43.647Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:44.137Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:44.146Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:46.678Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:47.154Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:47.170Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:49.706Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:50.173Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:50.193Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:52.728Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:53.191Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:53.218Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:55.752Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:56.214Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:56.237Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:44:58.781Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:44:59.264Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:44:59.294Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:01.830Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:02.314Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:02.329Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:04.874Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:05.342Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:05.354Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:07.904Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:08.359Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:08.385Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:10.933Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:11.387Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:11.405Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:13.954Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:14.408Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:14.421Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:16.980Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:17.445Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:17.454Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:20.025Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:20.477Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:20.488Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:23.046Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:23.513Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:23.517Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:26.063Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:26.560Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:26.565Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:29.089Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:29.600Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:29.605Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:32.139Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:32.659Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:32.660Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:35.167Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:35.681Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:35.687Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:38.668Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:38.672Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:38.676Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:41.664Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:41.679Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:41.681Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:44.697Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:44.724Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:44.726Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:47.717Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:47.767Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:47.772Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:50.741Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:50.802Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:50.823Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:53.772Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:53.836Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:53.859Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:56.797Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:56.866Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:56.890Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:45:59.926Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:45:59.934Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:45:59.939Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:02.985Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:02.989Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:02.994Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:06.035Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:06.041Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:06.042Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:09.092Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:09.100Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:09.101Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:12.169Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:12.170Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:12.176Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:15.211Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:15.226Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:15.231Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:18.269Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:18.285Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:18.293Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:21.298Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:21.325Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:21.339Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:24.333Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:24.373Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:24.375Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:27.373Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:27.401Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:27.411Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:30.390Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:30.441Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:30.447Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:33.413Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:33.476Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:33.477Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:36.434Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:36.509Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:36.511Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:39.458Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:39.548Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:39.554Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:42.510Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:42.596Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:42.601Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:45.550Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:45.630Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:45.633Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:48.588Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:48.679Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:48.680Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:51.643Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:51.703Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:51.707Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:54.666Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:54.762Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:46:54.763Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:57.689Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:46:57.790Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:46:57.796Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:00.785Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:00.836Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:00.854Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:03.907Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:03.921Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:03.924Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:06.969Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:06.979Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:06.979Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:09.367Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:09.376Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:09.378Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:11.025Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:11.048Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:11.058Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:13.937Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:13.941Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:13.943Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:16.985Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:17.005Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:17.006Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:20.050Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:20.054Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:20.055Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:23.091Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:23.099Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:23.100Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:26.135Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:26.140Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:26.142Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:29.183Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:29.188Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:29.189Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:32.213Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:32.226Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:32.239Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:35.248Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:35.253Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:35.267Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:38.285Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:38.295Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:38.298Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:41.307Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:41.326Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:41.329Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:44.328Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:44.352Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:44.353Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:47.349Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:47.390Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:47.399Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:50.400Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:50.427Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:50.448Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:53.427Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:53.467Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:53.481Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:56.457Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:56.488Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:56.525Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:47:59.481Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:47:59.527Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:47:59.546Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:02.503Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:02.551Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:02.589Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:05.524Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:05.571Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:05.616Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:08.553Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:08.604Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:08.634Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:11.580Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:11.626Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:11.662Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:14.609Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:14.646Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:14.687Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:17.632Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:17.669Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:17.701Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:20.667Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:20.692Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:20.724Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:23.685Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:23.725Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:23.741Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:26.446Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:26.455Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:26.462Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:29.432Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:29.433Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:29.437Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:32.471Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:32.475Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:32.477Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:35.521Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:35.522Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:35.526Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:38.593Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:38.600Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:38.601Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:41.669Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:41.671Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:41.673Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:44.715Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:44.718Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:44.719Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:47.759Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:47.774Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:47.776Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:50.778Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:50.812Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:50.813Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:53.804Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:53.850Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:53.864Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:48:56.834Z] warn: <resources> Drive not found for target: /array
+[2026-05-21T21:48:56.894Z] warn: <resources> Drive not found for target: /cache
+[2026-05-21T21:48:56.897Z] warn: <resources> Drive not found for target: /depot
+[2026-05-21T21:54:08.823Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T22:32:13.679Z] error: duplicated mapping key (18:11)
+
+ 15 |     - Portfolio:
+ 16 |         - abbr: Portfolio
+ 17 |           href: https://pablocsl.vercel.app/
+ 18 |           href: https://pablocsl.vercel.app/
+----------------^
+ 19 | 
+ 20 |     - Wiki:
+[2026-05-21T22:32:14.530Z] error: <index> YAMLException: duplicated mapping key (18:11)
+
+ 15 |     - Portfolio:
+ 16 |         - abbr: Portfolio
+ 17 |           href: https://pablocsl.vercel.app/
+ 18 |           href: https://pablocsl.vercel.app/
+----------------^
+ 19 | 
+ 20 |     - Wiki:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+[2026-05-21T22:32:15.203Z] error: duplicated mapping key (18:11)
+
+ 15 |     - Portfolio:
+ 16 |         - abbr: Portfolio
+ 17 |           href: https://pablocsl.vercel.app/
+ 18 |           href: https://pablocsl.vercel.app/
+----------------^
+ 19 | 
+ 20 |     - Wiki:
+[2026-05-21T22:32:28.724Z] error: <index> YAMLException: duplicated mapping key (24:11)
+
+ 21 |         - abbr: Wiki
+ 22 |           href: https://pablocsl.vercel.a ...
+ 23 |           description: pablocsl.vercel.ap ...
+ 24 |           description: Portfolio Personal
+----------------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+[2026-05-21T22:32:29.302Z] error: duplicated mapping key (24:11)
+
+ 21 |         - abbr: Wiki
+ 22 |           href: https://pablocsl.vercel.a ...
+ 23 |           description: pablocsl.vercel.ap ...
+ 24 |           description: Portfolio Personal
+----------------^
+[2026-05-21T22:45:44.664Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-21T22:47:19.229Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙

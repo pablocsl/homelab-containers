@@ -1,0 +1,43 @@
+- logo:
+    icon: /icons/favicon.png
+
+- greeting:
+    text_size: 4xl
+    text: pablocsl.lab
+
+- search:
+    provider: google
+    focus: true
+    showSearchSuggestions: true
+    target: _parent
+
+- resources:
+    #label: Sistema
+    expanded: false
+    cpu: true
+    cputemp: true
+    memory: true
+    refresh: 1000
+
+- resources:
+    #label: Almacenamiento
+    expanded: false
+    disk:
+     - /
+
+- resources:
+    expanded: false
+    uptime: true
+    refresh: 1000
+
+- datetime:
+    text_size: 4xl
+    format:
+        timeStyle: short
+        hour12: false
+
+- datetime:
+    text_size: md
+    format:
+        dateStyle: long
+        hour12: false
