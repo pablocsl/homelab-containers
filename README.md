@@ -4,8 +4,6 @@
 
 Este repositorio contiene la simulación de un entorno Homelab completo desplegado en una máquina virtual utilizando Docker Compose. Incluye servicios de red, monitorización, automatización multimedia, almacenamiento en la nube y gestión de contenedores, todo orquestado de forma modular.
 
----
-
 ## 📁 Estructura del proyecto
 
 El proyecto sigue la siguiente estructura, dentro de cada carpeta se encuentran los respectivos ficheros docker-compose.yml que ayudarán en la configuración y despliegue de los servicios.
@@ -21,8 +19,6 @@ El proyecto sigue la siguiente estructura, dentro de cada carpeta se encuentran 
 └── prometheus/
 ```
 
----
-
 ## 🚀 Despliegue de servicios
 
 Para el despliegue simplemente deberemos de clonar el repositirio :
@@ -35,13 +31,13 @@ También tenemos la opción de descargar el release que contendrá el repo compr
 
 ![Release](https://img.shields.io/github/v/release/pablocsl/homelab-containers)
 
+---
+
 Después ajustaremos la configuración del fichero 'docker-compose.yml' y la necesaria que se encuentre en el directorio del servicio que queramos desplegar y finalmente nos quedaría ejecutar el siguiente comando :
 
 ```bash
 docker compose up -d
 ```
-
----
 
 ## ⚠️ Aviso sobre configuración
 
@@ -54,13 +50,9 @@ En este repositorio se ha censurado información sensible por seguridad, por lo 
 
 También encontrarás valores con ... indicando partes omitidas o simplificadas.
 
----
-
 ## 🗒️ Nota sobre Proxy
 
 Algunas rutas del Nginx Proxy Manager se han dejado parcialmente intactas para que se entienda el contexto real del despliegue, estas rutas deben ajustarse según vuestra infraestructura y configuración de red.
-
----
 
 ## 🧠 Objetivo del proyecto
 
@@ -71,8 +63,6 @@ Este proyecto tiene fines educativos y de simulación para:
 - Comunicación entre los servicios dentro de contenedores
 - Entender los flujos que sigue la información
 - Practicar redes internas, DNS y reverse proxy
-
----
 
 ## 📌 Aviso
 
