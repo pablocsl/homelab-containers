@@ -1,3 +1,4 @@
+
 ![Homelab](./dashboard.png)
 
 # 📦 Homelab Containers
@@ -21,15 +22,11 @@ El proyecto sigue la siguiente estructura, dentro de cada carpeta se encuentran 
 
 ## 🚀 Despliegue de servicios
 
-Para el despliegue simplemente deberemos de clonar el repositirio :
+Para el despliegue simplemente deberemos descargar el release que contendrá el repo comprimido con todos los ficheros de los servicios, o bien clonar el repositirio :
 
 ```bash
 git clone https://github.com/pablocsl/homelab-containers.git
 ```
-
-También tenemos la opción de descargar el release que contendrá el repo comprimido.
-
-![Release](https://img.shields.io/github/v/release/pablocsl/homelab-containers)
 
 ---
 
